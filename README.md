@@ -48,19 +48,27 @@ Models were evaluated using Mean Cross-Validation Mean Squared Error (CV MSE) ac
 
 ---
 
+## Documentation & Code Artifacts
+
+* **Source Code / Notebook:** Available in [`notebooks/imdb_data_analysis.ipynb`](notebooks/imdb_data_analysis.ipynb) or [`src/imdb_regression.py`](src/imdb_regression.py).
+* **Presentation Deck:** [View Presentation Slides (PDF)](docs/presentation.pdf)
+* **Dataset:** [`data/imdb_top_5000.csv`](data/imdb_top_5000.csv)
+
+---
+
 ## Tech Stack & Tools
 
-* **Language:** R / Python
-* **Data Manipulation:** Data cleaning, string parsing (`main_genre` extraction)
-* **Modeling & Evaluation:** Linear Regression, Ridge Regression, Lasso Regression, Cross-Validation
-* **Academic Context:** Developed for **CN240 Introduction to Data Science** at Thammasat School of Engineering
+* **Language:** Python
+* **Data Processing & ML:** Pandas, NumPy, Scikit-Learn (Linear Regression, Ridge, Lasso)
+* **Visualization:** Matplotlib, Seaborn
+* **Academic Context:** Developed for CN240 Introduction to Data Science at Thammasat School of Engineering
 
 ---
 
 ## Team & Individual Contributions
 
 * **Academic Course:** CN240 Introduction to Data Science
-* **Author:** Chanoudom Tann
+* **Author:** Chanoudom Tann (Victor)
 * **Individual Contributions:**
   * Cleaned and parsed the IMDb dataset, performing feature extraction on multi-genre strings.
   * Conducted EDA visualizations for runtime, vote distributions, and director frequencies.
@@ -78,5 +86,7 @@ imdb-rating-regression/
 │   └── presentation.pdf
 ├── notebooks/
 │   └── imdb_data_analysis.ipynb
+├── src/
+│   └── imdb_regression.py
 ├── requirements.txt
 └── README.md
