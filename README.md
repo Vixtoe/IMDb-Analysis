@@ -51,7 +51,7 @@ Models were evaluated using Mean Cross-Validation Mean Squared Error (CV MSE) ac
 ## Documentation & Code Artifacts
 
 * **Source Code / Notebook:** Available in [`notebooks/imdb_data_analysis.ipynb`](Cn240_Final_Project.ipynb)
-* **Presentation Deck:** [View Presentation Slides (PDF)](IMDb_Project.pdf)
+* **Presentation Deck:** [View / Download Presentation PDF](IMDb_Project.pdf?raw=true)
 * **Dataset:** [`data/imdb_top_5000.csv`](IMDb.csv)
 
 ---
